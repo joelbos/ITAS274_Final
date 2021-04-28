@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "3422530027",
+    "firebase_url": "https://joelpianotiles-default-rtdb.firebaseio.com",
+    "project_id": "joelpianotiles",
+    "storage_bucket": "joelpianotiles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3422530027:android:93973c034d2c4ad86691ae",
+        "android_client_info": {
+          "package_name": "com.example.joelpianotiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3422530027-36cpef8d5sk6939fvobae70qre7qfcgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCKKGAymXOFMq0E6TVfLFY--erSIJ6ddM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3422530027-36cpef8d5sk6939fvobae70qre7qfcgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

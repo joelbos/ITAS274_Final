@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/upload_score"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:text="Joel's Piano tiles"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:text="You can enter your name and add your best to the Leaderboard"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addNote"
+        android:text="Add best!" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadNotes"
+        android:text="Refresh Leaderboard" />
+    <TextView
+        android:text="The best scores are listed here"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/text_view_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    </ScrollView>
+
+</LinearLayout>
